@@ -1,0 +1,50 @@
+$ford: Ford;
+$acura: Acura;
+
+#myMakes {
+	float: left;
+	clear: both;
+}
+
+#vehicleLabel {
+	float: left;
+	clear: both;
+	height: auto;
+	width: auto;
+}
+#vehicleImage {
+	float: left;
+	clear: both;
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.hide {
+	visibility: none;
+}
+
+/* Ford Styles */
+.#{$ford} { 
+	background-image: url(/images/Ford.jpg);
+	
+	&.Escape {
+		background-image: url(/images/Ford.Escape.jpg);
+	}
+	&.Edge {
+		background-image: url(/images/Ford.Edge.jpg);
+	}
+}
+
+/* Acura Styles  */
+.#{$acura} {
+	background-image: url(/images/Acura.jpg);
+
+	&.MDX {
+		background-image: url(/images/Acura.MDX.jpg);
+	}
+	&.ILX {
+		background-image: url(/images/Acura.ILX.jpg);
+	}
+}

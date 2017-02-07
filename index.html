@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>How Does It Feel</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<script src="js/angular.min.js"></script>
+		<script src="js/autos.js"></script>
+	</head>
+	<body>
+		<div ng-app="autos">
+			<div ng-controller="autoControl">
+				<div id="myMakes" my-makes></div>
+				
+				<div id="vehicleLabel">{{make}} {{model}}</div>
+				<div id="vehicleImage"></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "autos",
+  "version": "1.0.0",
+  "description": "Autos App",
+  "main": "index.js",
+  "author": "Addam Driver",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.8.1"
+  }
+}
